@@ -7,3 +7,12 @@ docker-compose exec hbase-master hbase shell
 ```
 ## Usage
 
+Creat a table 
+```
+create 'emp', 'personal data', 'professional data'
+```
+List tables
+```list
+```
+Insert into table
+```put 'emp','1','personal data:name','raju'
